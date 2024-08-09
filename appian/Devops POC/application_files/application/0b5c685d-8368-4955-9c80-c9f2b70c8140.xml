@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000ec63-bb64-8000-9c60-011c48011c48_2866705</versionUuid>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>15c33e22-e88d-448f-9d37-dd99bbf4f93c</versionUuid>
     <application>
         <name>Devops POC</name>
         <uuid>0b5c685d-8368-4955-9c80-c9f2b70c8140</uuid>
@@ -51,6 +52,7 @@
                         <uuid>d1ea79db-420a-4a77-a6ca-512325d9f6ad</uuid>
                         <uuid>513a4a12-0a6c-40c9-ac34-1760d3c596f2</uuid>
                         <uuid>_a-0000ec63-bb64-8000-9c60-011c48011c48_2866700</uuid>
+                        <uuid>_a-0000ec63-bb64-8000-9c60-011c48011c48_2870181</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -371,6 +373,7 @@
         <historyInfo versionUuid="0b5c685d-8368-4955-9c80-c9f2b70c8140"/>
         <historyInfo versionUuid="_a-0000ec63-bb64-8000-9c60-011c48011c48_2866614"/>
         <historyInfo versionUuid="_a-0000ec63-bb64-8000-9c60-011c48011c48_2866705"/>
+        <historyInfo versionUuid="15c33e22-e88d-448f-9d37-dd99bbf4f93c"/>
     </history>
     <postDeploymentProcessData/>
-</applicationHaul>
+</applicationHaul><!--updated on 2024-08-09T12:56:19.936-->

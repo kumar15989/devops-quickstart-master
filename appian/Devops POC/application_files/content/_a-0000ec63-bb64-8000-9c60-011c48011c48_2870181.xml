@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<contentHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <versionUuid>_a-0000ec63-bb64-8000-9c60-011c48011c48_2870185</versionUuid>
+    <constant>
+        <name>DPOC_RELEASE_DATE</name>
+        <uuid>_a-0000ec63-bb64-8000-9c60-011c48011c48_2870181</uuid>
+        <description>Environment Specific constant</description>
+        <parentUuid>e5f47a26-775d-43a0-8429-32dff6b27279</parentUuid>
+        <visibility>
+            <advertise>false</advertise>
+            <hierarchy>true</hierarchy>
+            <indexable>true</indexable>
+            <quota>false</quota>
+            <searchable>true</searchable>
+            <system>false</system>
+            <unlogged>false</unlogged>
+        </visibility>
+        <typedValue>
+            <type>
+                <name>date</name>
+                <namespace>http://www.w3.org/2001/XMLSchema</namespace>
+            </type>
+        </typedValue>
+        <isEnvironmentSpecific>true</isEnvironmentSpecific>
+    </constant>
+    <roleMap public="true">
+        <role inherit="true" allowForAll="false" name="readers">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="true" allowForAll="false" name="administrators">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role inherit="false" allowForAll="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+    </roleMap>
+    <history>
+        <historyInfo versionUuid="_a-0000ec63-bb64-8000-9c60-011c48011c48_2870185"/>
+    </history>
+</contentHaul>
