@@ -16,5 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ inputs.perform_deploy }}
     steps:
+      - uses: actions/checkout@v4
       - name: Deploy build to target
+        uses: actions/download-artifact@v4
         run: echo "Deploying build:${{ inputs.build_id }} to target:${{ inputs.deploy_target }}"
